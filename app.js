@@ -2,11 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 //Importing components
-import AppRouter from './routers/AppRouter'
+import AppRouter from './src/routers/AppRouter'
 //import styling
 import 'bootstrap/dist/css/bootstrap.css';
-//import 'normalize.css/normalize.css'
-//import './styles/styles.scss'
 
 const jsx = (
     <div>
@@ -14,4 +12,12 @@ const jsx = (
     </div>
 )
 
-ReactDOM.render(jsx,document.getElementById('app'));
+ReactDOM.render
+(
+    jsx,
+    document.getElementById('app')
+);
+
+// if(module.hot){
+//     const NextApp = module.hot.accept('./AppRouter');
+// }
